@@ -11,10 +11,29 @@ export class Game {
 
         this.speed = 150;
         this.direction = "RIGHT";
-        this.nextDirection = "UP";
+        this.nextDirection = "RIGHT";
 
         this.running = true;
     }
+    setDirection(direction) {
+
+        const opposite = { // Define opposite directions
+
+            UP: "DOWN",
+            DOWN: "UP",
+            LEFT: "RIGHT",
+            RIGHT: "LEFT"
+
+        };
+
+        if (opposite[this.direction] === direction) {
+            return;
+        }
+
+        this.nextDirection = direction;
+
+    }
+    //game functions
     update() {
         if (this.running === false) return;
         this.direction = this.nextDirection;

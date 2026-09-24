@@ -30,9 +30,33 @@ body {
 }
 
 .snake {
-    background: green;
+    background: #12e0cf96;
 }
 
 .head {
-    background: darkgreen;
+    background: #25f5e3;
+}
+
+button {
+    padding: 10px 15px;
+
+    border: none;
+    border-radius: 6px;
+
+    cursor: pointer;
+}
+
+.controls {
+    margin-top: 20px;
+
+    text-align: center;
+}
+
+.controls button {
+    margin: 3px;
+
+    width: 50px;
+    height: 45px;
+
+    font-size: 20px;
 }
