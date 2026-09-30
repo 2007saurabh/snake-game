@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background: #ffdfdf;
 }
 
 body {
@@ -26,20 +27,19 @@ body {
 }
 
 .cell {
-    border: 1px solid #ddd;
+    border: 1px solid #969696;
 }
 
 .snake {
-    background: #12e0cf96;
+    background: #056101;
 }
 
 .head {
-    background: #25f5e3;
+    background: #04610170;
 }
 
 button {
     padding: 10px 15px;
-
     border: none;
     border-radius: 6px;
 
